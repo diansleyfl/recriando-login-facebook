@@ -202,6 +202,31 @@ form.criar-conta input[type=submit] {
     font-size: 20px;
 }
 
+form .w100 h2 {
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+form select.nascimento {
+    float: left;
+    margin-top: 5px;
+}
+
+.input-radio {
+    float: left;
+    margin: 8px 10px;
+}
+
+.input-radio h2{
+    display: inline-block;
+}
+
+.input-radio input[type=radio] {
+    width: auto !important;
+    display: inline-block;
+}
 
 
 /* 
