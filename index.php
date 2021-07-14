@@ -146,7 +146,59 @@
 
     </section> <!--main-->
 
+    <section class="linguas">
+        <div class="center">
+            <a class="selected-lingua" href="#">Português (BR)</a>
+            <a href="#">Português (BR)</a>
+            <a href="#">English (US)</a>
+            <a href="#">Español</a>
+            <a href="#">Français (France)</a>
+            <a href="#">Italiano</a>
+            <a href="#">Deutsch</a>
+            <a href="#">العربية</a>
+            <a href="#">हिन्दी</a>
+            <a href="#">中文(简体)</a>
+            <a href="#">日本語</a>
+        </div> <!--center-->
+    </section> <!--linguas-->
 
+    <section class="links">
+        <div class="center">
+            <a href="#">Cadastre-se</a>
+            <a href="#">Entrar</a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Celular</a>
+            <a href="#">Encontrar amigos</a>
+            <a href="#">Pessoas</a>
+            <a href="#">Páginas</a>
+            <a href="#">Locais</a>
+            <a href="#">Jogos</a>
+            <a href="#">Locais</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Vídeos</a>
+            <a href="#">Grupos</a>
+            <a href="#">Receitas</a>
+            <a href="#">Esportes</a>
+            <a href="#">Look</a>
+            <a href="#">Moments</a>
+            <a href="#">Instagram</a>
+            <a href="#">Local</a>
+            <a href="#">Sobre</a>
+            <a href="#">Criar anúncio</a>
+            <a href="#">Criar página</a>
+            <a href="#">Desenvolvedores</a>
+            <a href="#">Carreiras</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Cookies</a>
+            <a href="#">Opções do anúncio</a>
+            <a href="#">Termos</a>
+            <a href="#">Ajuda</a>
+
+            <p>Facebook © 2021</p>
+        </div> <!--center-->
+    </section> <!--links-->
+   
 </body>
 
 

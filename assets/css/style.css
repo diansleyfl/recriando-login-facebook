@@ -141,7 +141,7 @@ section.main {
 
 .background img {
     max-width: 100%;
-    transform: translateX(-200px);
+    transform: translateX(-100px);
 }
 
 .abrir-conta {
@@ -209,6 +209,10 @@ form .w100 h2 {
     font-weight: normal;
 }
 
+form .w100 select {
+padding: 4px;
+}
+
 form select.nascimento {
     float: left;
     margin-top: 5px;
@@ -235,7 +239,47 @@ form select.nascimento {
 ---------------------------------------------------------- 
 */
 
+section.linguas {
+    padding: 30px 0;
+    background: white;
+}
 
+section.linguas a {
+    padding-right: 15px;
+    font-size: 14px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.linguas a.selected-linuga {
+    color: #737373;
+}
+
+section.linguas .center {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+section.links a {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.links .center {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+}
+
+section.links p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #737373;
+}
 
 /* 
 ----------------------------------------------------------
@@ -252,6 +296,53 @@ form select.nascimento {
 */
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+
+    .logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    form.form-login {
+        margin-top: 10px;
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .form-login .form-element {
+        display: block;
+        margin-right: 5px 0;
+    }
+    
+    .form-element p {
+        font-size: 14px;
+    }
+    
+    .form-element input[type=email], 
+    .form-element input[type=password] {
+        width: 100%;
+        max-width: 320px;
+        margin-top: 4px;
+        height: 22px;
+        padding-left: 3px;
+    }
+
+    .form-element input[type=submit] {
+        margin-top: 18px;
+        margin-bottom: 10px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .background {
+        display: none;
+    }
+    
+    .abrir-conta {
+        width: 100%;
+    }
 
 }
